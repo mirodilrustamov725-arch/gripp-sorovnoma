@@ -1,0 +1,80 @@
+body {
+  background: #eef3f8;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 20px;
+}
+
+.app {
+  max-width: 520px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 14px;
+  box-shadow: 0 8px 24px rgba(0,0,0,0.12);
+}
+
+h1 {
+  text-align: center;
+  color: #0a4c8a;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  width: 100%;
+  padding: 14px;
+  margin-top: 20px;
+  background: #0a4c8a;
+  color: white;
+  font-size: 16px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #083b6f;
+}
+
+.card {
+  background: #f9fbfd;
+  padding: 15px;
+  margin-top: 15px;
+  border-left: 5px solid #0a4c8a;
+  border-radius: 10px;
+}
+
+.qol {
+  border-left-color: #c0392b;
+}
+
+.options label {
+  font-weight: normal;
+  margin: 6px 0;
+}
+
+#result {
+  margin-top: 20px;
+  padding: 15px;
+  background: #eaf6ff;
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hidden {
+  display: none;
+}
